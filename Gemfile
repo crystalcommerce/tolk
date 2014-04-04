@@ -7,11 +7,12 @@ gem 'safe_yaml', '>= 0.8.6'
 
 group 'test' do
   gem 'capybara'
+  gem 'capybara-webkit'
   gem "factory_girl_rails"
   gem "sqlite3"
   gem "mocha"
   gem 'launchy'
-  gem 'selenium-webdriver'
+  gem 'capybara-screenshot'
 end
 
 group 'development' do
